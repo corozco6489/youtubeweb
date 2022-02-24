@@ -20,45 +20,35 @@
   }
 
   .content {
-    .share{ 
+    .share {
       text-align: center;
-      
-      a{
-        // font-size: 3rem;
-        // height: 100%;
-        // width: 100%;
-        // line-height: 5rem;
-        // border-radius: 50%;
-        // background: $light-bg;
-         color:$white;
-        // text-align: center;
-        // margin-right: .3rem;
-        // text-decoration: none;
-      
-       
-       
-        .fa-user{
-            
-            font-size: 3rem;
-           display: inline-block;
-           justify-content: center;
-           align-items: center;
-           margin: 5px;
- 
 
-         
-        }
+      a {
+  
+        text-decoration: none;
+   
 
-        &:hover{
+        .fa-user {
+          font-size: 3rem;
+          display: inline-block;
+          justify-content: center;
+          align-items: center;
+          margin: 5px;
+          text-decoration: none;
           color: #18d26e;
+
+       
         }
       }
     }
     flex: 1 1 42rem;
 
     h3 {
-      color: $white;
       font-size: 10rem;
+      padding-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 3rem;
       padding-bottom: 0.5rem;
     }
 
@@ -66,7 +56,6 @@
       font-size: 3rem;
       color: $crimson;
       padding: 0.5rem 0;
-     
     }
     .ityped-cursor {
       animation: blink 1s infinite;
@@ -83,7 +72,6 @@
 
     p {
       font-size: 2rem;
-      color: $light-color;
       padding: 1rem 0;
       line-height: 2;
     }
@@ -94,7 +82,6 @@
       background: #18d26e;
       padding: 0.7rem;
       font-size: 1.7rem;
-      color: #fff;
       padding-left: 2rem;
     }
 

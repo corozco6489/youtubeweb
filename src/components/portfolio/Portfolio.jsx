@@ -24,22 +24,15 @@ function Portfolio() {
   const [data, setData] = useState([])
 
 
-  const list = [
-    {
-      id: "featured",
-      title: "All",
-    },
+  const list = [  
     {
       id: "web",
       title: "Web App",
     },
-    {
-      id: "mobile",
-      title: "IoT",
-    },
+   
     {
       id: "design",
-      title: "Arduino",
+      title: "Python",
     },
     {
       id: "content",
@@ -53,10 +46,7 @@ function Portfolio() {
 
 
   useEffect(() => {
-    switch (selected) {
-      case "featured":
-        setData(featuredPortfolio);
-        break;
+    switch (selected) {   
       case "web":
         setData(webPortfolio);
         break;
@@ -73,7 +63,7 @@ function Portfolio() {
         setData(reactPortfolio);
         break;
       default:
-        setData(featuredPortfolio);
+        setData(webPortfolio);
     }
   }, [selected]);
   return (

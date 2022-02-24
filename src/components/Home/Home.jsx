@@ -15,6 +15,7 @@ import {
   Language,
   WhatsApp,
   GitHub,
+  Twitter
 } from "@material-ui/icons";
 export default function Home() {
   const textRef = useRef();
@@ -36,9 +37,9 @@ export default function Home() {
 
         <div className="content">
           <h3>Hi, I am Carlos Orozco</h3>
-          <span>
-            Front-End <span ref={textRef}></span>
-          </span>
+          <h2> Engineer & Front-End <span ref={textRef}></span></h2>
+           
+        
 
           {/* <p>
             I am an engineering student in Electronics and Communications, eager
@@ -61,6 +62,12 @@ export default function Home() {
               target="_blank"
             >
               <LinkedIn className="fas fa-user" />{" "}
+            </a>
+            <a
+              href="https://twitter.com/corozco6489"
+              target="_blank"
+            >
+              <Twitter className="fas fa-user" />{" "}
             </a>
             <a
               href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ"

@@ -281,26 +281,32 @@ export const featuredPortfolio = [
   export const designPortfolio = [
     {
       id: 1,
-      title: "ChatBot",
-      img: "https://images.unsplash.com/photo-1632435499152-18838be77960?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      link:"https://www.youtube.com/watch?v=vqRQqrNxscw",
-      site:"https://www.youtube.com/watch?v=vqRQqrNxscw",
-      description:"ARDUINO - WHATSAPP"
+      title: "Weather App",
+      img: "assets/images/wheaterapp.png",
+      link:"https://github.com/corozco6489/miniprojects-python/blob/password-generator/wheaterapi.py",
+      site:"https://github.com/corozco6489/miniprojects-python/blob/password-generator/wheaterapi.py",
     },
     {
       id: 2,
-      title: "ChatBot",
-      img: "https://images.unsplash.com/photo-1611746869696-d09bce200020?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      link:"https://github.com/corozco6489/thingslearned",
-      site:"https://corozco6489.github.io/thingslearned/",
+      title: "ChatBot Telegram Arduino",
+      img: "https://codingornot.com/wp-content/uploads/2018/07/chatbot-con-telegram-python-y-arduino.png",
+      link:"https://github.com/corozco6489/Proyecto-Telegram--Chatbot---Arduino---ESP32CAM",
+      site:"https://www.youtube.com/watch?v=_fL-Wqhd-xs",
       description:"ARDUINO - TELEGRAM"
     },
     {
       id: 3,
-      title: "Modbus Comunicacion",
-      img: "assets/images/img-1.jpg",
-      link:"https://github.com/Charles6489/modbus_arduino_factory_io_nodered",
-      site:"https://www.youtube.com/watch?v=FHhumt2GADU",
+      title: "Calculator App",
+      img: "assets/images/calculator.png",
+      link:"https://github.com/corozco6489/miniprojects-python/blob/password-generator/Calculator.py",
+      site:"https://github.com/corozco6489/miniprojects-python/blob/password-generator/Calculator.py",
+    },
+    {
+      id: 4,
+      title: "Scientific Calculator",
+      img: "assets/images/scientific_calculator.png",
+      link:"https://github.com/corozco6489/miniprojects-python/blob/password-generator/calculator_cientific/Scientific_calculator.py",
+      site:"https://github.com/corozco6489/miniprojects-python/blob/password-generator/calculator_cientific/Scientific_calculator.py",
     },
    
   ];
@@ -421,7 +427,15 @@ export const featuredPortfolio = [
       img: "assets/images/react5.png",
       link:"https://github.com/corozco6489/Chat-Application",
       site:"https://corozco6489.github.io/Chat-Application/",
-      description:"Chat Application with react chat engine , socket , rest api"
+      description:"Chat Application with react chat engine , socket , rest api    login: admin   password:admin"
+    },
+    {
+      id: 5,
+      title: "Video Sharing Web App",
+      img: "assets/images/youtube.png",
+      link:"https://github.com/corozco6489/youtubeapi",
+      site:"https://corozco6489.github.io/youtubeapi/",
+      description:"Video Sharing Web App using youtube api , material-ui , axios"
     },
    
   ];

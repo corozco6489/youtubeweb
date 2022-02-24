@@ -95,12 +95,12 @@ function About() {
         <h3>javascript</h3>
       </div>
       <div class="box">
-        <img loading="lazy" src="assets/images/icon-4.png" />
-        <h3>sass</h3>
+        <img loading="lazy" src="assets/images/icon-8.png" />
+        <h3>Matlab</h3>
       </div>
       <div class="box">
-        <img loading="lazy" src="assets/images/icon-5.png" />
-        <h3>jquery</h3>
+        <img loading="lazy" src="assets/images/icon-7.png" />
+        <h3>Python</h3>
       </div>
       <div class="box">
         <img loading="lazy" src="assets/images/icon-6.png" />

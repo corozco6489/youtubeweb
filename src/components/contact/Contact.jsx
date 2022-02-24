@@ -12,7 +12,9 @@ import {
   LocationOn,
   Language,
   WhatsApp,
-  GitHub
+  GitHub,
+  Twitter
+
 } from "@material-ui/icons";
 function Contact() {
   const formRef = useRef();
@@ -50,7 +52,7 @@ function Contact() {
           <div className="info-container">
             <h1>get in touch</h1>
 
-            <p>I am an Electronics and Communications Engineer from Ecuador</p>
+            {/* <p>I am an Electronics and Communications Engineer from Ecuador</p> */}
 
             <div className="box-container">
               <div className="box">
@@ -112,6 +114,12 @@ function Contact() {
               >
                 <LinkedIn className="fas fa-user" />{" "}
               </a>
+              <a
+              href="https://twitter.com/corozco6489"
+              target="_blank"
+            >
+              <Twitter className="fas fa-user" />{" "}
+            </a>
               <a
               href="https://github.com/corozco6489"
               target="_blank"
