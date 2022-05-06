@@ -32,7 +32,7 @@ export default function Home() {
     <div>
       <section className="home">
         <div className="image">
-          <img loading="lazy" src="assets/images/user1.png" alt="" />
+          <img loading="lazy" src="assets/images/user.png" alt="" />
         </div>
 
         <div className="content">
